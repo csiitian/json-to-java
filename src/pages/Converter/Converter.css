@@ -1,0 +1,94 @@
+.ConverterRoot {
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+.Converter {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media (min-width: 850px) {
+  .Converter {
+    flex-direction: row;
+  }
+
+  .ConverterButtonRoot {
+    flex-direction: col;
+  }
+}
+
+.ConverterHeader {
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.ConverterHeaderText {
+  font-size: 32px;
+}
+
+.ConverterSource {
+  height: 80vh;
+  width: 90vw;
+  margin: 12px;
+}
+
+.ConverterTarget {
+  height: 80vh;
+  width: 90vw;
+  margin: 12px;
+}
+
+.ConverterSourceText {
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  padding: 5px;
+  overflow-x: auto;
+  white-space: nowrap;
+  background-color: black;
+  color: white;
+  line-height: 24px;
+}
+
+.ConverterSourceTextError {
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  padding: 5px;
+  overflow-x: auto;
+  white-space: nowrap;
+  background-color: black;
+  color: white;
+  border: 2px solid red;
+  line-height: 24px;
+}
+
+.ConverterTargetText {
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  padding: 5px;
+  overflow-x: auto;
+  background-color: black;
+  color: white;
+  line-height: 24px;
+}
+
+.ConverterButtonRoot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ConverterButton {
+  margin: 10px;
+  background-color: aliceblue;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: medium;
+  padding: 10px;
+}
